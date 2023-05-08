@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 // require the students database
-const studentDB = require('./data/student-db');
+const studentDB = require('./data/student-db'); // only need it once 
 const studentDb = require('./data/student-db');
 
 // Create our express app
